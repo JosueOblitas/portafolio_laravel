@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#menu-toggle:checked + #menu {
+    display: block;
+  }
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f8f8f8;
+    font-family: 'Ubuntu', sans-serif;
+}
